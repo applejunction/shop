@@ -22,9 +22,6 @@
     --wa:#22c35e;
     --wa-deep:#189a48;
     --wa-glow: rgba(34,195,94,0.35);
-    --imo:#20b2e6;
-    --imo-deep:#1483ab;
-    --imo-glow: rgba(32,178,230,0.35);
     --shadow-lg: 0 30px 60px -20px rgba(20,20,25,0.18);
     --shadow-sm: 0 10px 25px -10px rgba(20,20,25,0.12);
     --radius-lg: 28px;
@@ -347,36 +344,6 @@
   .wa-btn svg{ width:24px; height:24px; flex-shrink:0; }
   .wa-btn .btn-txt{ white-space:nowrap; }
 
-  .imo-btn{
-    position:relative;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:10px;
-    width:100%;
-    margin-top:12px;
-    padding:18px 20px;
-    border:none;
-    border-radius:18px;
-    background: linear-gradient(180deg, #35c4f2, var(--imo-deep));
-    color:#ffffff;
-    font-size:17px;
-    font-weight:700;
-    letter-spacing:0.01em;
-    cursor:pointer;
-    box-shadow:
-      0 1px 0 rgba(255,255,255,0.25) inset,
-      0 16px 32px -12px rgba(20,131,171,0.55);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    isolation:isolate;
-  }
-  .imo-btn:active{
-    transform: scale(0.97);
-    box-shadow: 0 8px 18px -10px rgba(20,131,171,0.6);
-  }
-  .imo-btn svg{ width:24px; height:24px; flex-shrink:0; }
-  .imo-btn .btn-txt{ white-space:nowrap; }
-
   .trust-line{
     display:flex;
     align-items:center;
@@ -407,7 +374,6 @@
     z-index:40;
   }
   .sticky-cta .wa-btn{ box-shadow: 0 -4px 24px rgba(0,0,0,0.06), 0 16px 32px -12px rgba(24,154,72,0.5); }
-  .sticky-cta .imo-btn{ box-shadow: 0 -4px 24px rgba(0,0,0,0.06), 0 16px 32px -12px rgba(20,131,171,0.5); }
 
   @media (max-width: 640px){
     .cta-wrap{ display:none; }
@@ -466,11 +432,7 @@
     <div class="cta-wrap">
       <a class="wa-btn" href="https://wa.me/8801768095563?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20iPhone%2013%20Pro%20%E0%A6%AB%E0%A7%8B%E0%A6%A8%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" rel="noopener" aria-label="WhatsApp এ অর্ডার করুন">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.6-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.48.1-.2.05-.37-.02-.51-.08-.15-.65-1.58-.9-2.16-.24-.58-.48-.5-.65-.51h-.56c-.2 0-.51.07-.78.37-.26.29-1.02 1-1.02 2.43 0 1.43 1.05 2.82 1.19 3.01.15.2 2.06 3.14 5 4.4.7.3 1.24.48 1.67.62.7.22 1.34.19 1.84.11.56-.08 1.7-.7 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.55-.34z"/><path d="M12.02 2C6.5 2 2.02 6.48 2.02 12c0 1.86.5 3.6 1.4 5.1L2 22l5.05-1.36A9.95 9.95 0 0 0 12.02 22C17.55 22 22 17.52 22 12S17.55 2 12.02 2zm0 18.1c-1.7 0-3.28-.5-4.62-1.34l-.33-.2-3 .8.8-2.95-.22-.34a8.1 8.1 0 0 1-1.28-4.38c0-4.47 3.64-8.1 8.15-8.1a8.1 8.1 0 0 1 8.14 8.1c0 4.47-3.64 8.1-8.15 8.1z"/></svg>
-        <span class="btn-txt bn">WhatsApp যোগাযোগ করুন</span>
-      </a>
-      <a class="imo-btn" href="https://s.imoim.net/bxLMpK" target="_blank" rel="noopener" aria-label="IMO তে যোগাযোগ করুন">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        <span class="btn-txt bn">IMO তে যোগাযোগ করুন</span>
+        <span class="btn-txt bn">WhatsApp এ অর্ডার করুন</span>
       </a>
     </div>
 
@@ -486,11 +448,7 @@
 <div class="sticky-cta">
   <a class="wa-btn" href="https://wa.me/8801768095563?text=%E0%A6%86%E0%A6%AE%E0%A6%BF%20iPhone%2013%20Pro%20%E0%A6%AB%E0%A7%8B%E0%A6%A8%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" rel="noopener" aria-label="WhatsApp এ অর্ডার করুন">
     <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.29-.15-1.7-.84-1.96-.93-.26-.1-.46-.15-.65.15-.2.29-.75.93-.92 1.12-.17.2-.34.22-.63.08-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.71-1.6-2-.17-.29-.02-.45.13-.6.13-.13.29-.34.44-.51.15-.17.2-.29.29-.48.1-.2.05-.37-.02-.51-.08-.15-.65-1.58-.9-2.16-.24-.58-.48-.5-.65-.51h-.56c-.2 0-.51.07-.78.37-.26.29-1.02 1-1.02 2.43 0 1.43 1.05 2.82 1.19 3.01.15.2 2.06 3.14 5 4.4.7.3 1.24.48 1.67.62.7.22 1.34.19 1.84.11.56-.08 1.7-.7 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.55-.34z"/><path d="M12.02 2C6.5 2 2.02 6.48 2.02 12c0 1.86.5 3.6 1.4 5.1L2 22l5.05-1.36A9.95 9.95 0 0 0 12.02 22C17.55 22 22 17.52 22 12S17.55 2 12.02 2zm0 18.1c-1.7 0-3.28-.5-4.62-1.34l-.33-.2-3 .8.8-2.95-.22-.34a8.1 8.1 0 0 1-1.28-4.38c0-4.47 3.64-8.1 8.15-8.1a8.1 8.1 0 0 1 8.14 8.1c0 4.47-3.64 8.1-8.15 8.1z"/></svg>
-    <span class="btn-txt bn">WhatsApp যোগাযোগ করুন  </span>
-  </a>
-  <a class="imo-btn" href="https://s.imoim.net/bxLMpK" target="_blank" rel="noopener" aria-label="IMO তে যোগাযোগ করুন">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-    <span class="btn-txt bn">IMO তে যোগাযোগ করুন</span>
+    <span class="btn-txt bn">WhatsApp এ অর্ডার করুন</span>
   </a>
 </div>
 
